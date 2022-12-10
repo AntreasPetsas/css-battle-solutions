@@ -1,0 +1,77 @@
+<style>
+  body {
+    background: #ac474b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    height: 80px;
+    background: #ac474b;
+    column-gap: 20px;
+  }
+  .row .box {
+    width: 60px;
+    height: 60px;
+    background: white;
+  }
+  .box-top {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 42px;
+  }
+  .box-top-o {
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    position: relative;
+  }
+  .bto1 {
+    border-bottom-left-radius: 20px;
+    margin-right: -10px;
+  }
+  .bto2 {
+    border-bottom-right-radius: 20px;
+  }
+  .box-top-i {
+    background: #ac474b;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+  }
+  .bti1 {
+    border-bottom-left-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .bti2 {
+    border-bottom-right-radius: 20px;
+    bottom: 10px;
+    left: 10px;
+  }
+</style>
+<div class="box-top">
+  <div class="box-top-o bto1">
+    <div class="box-top-i bti1"></div>
+  </div>
+  <div class="box-top-o bto2">
+    <div class="box-top-i bti2"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+<div class="row">
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
