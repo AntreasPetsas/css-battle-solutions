@@ -1,0 +1,59 @@
+<div class="left-circle"></div>
+<style>
+  body{
+    background: #191210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .inner-inner-circle,
+  .inner-circle,
+  .outer-circle{
+    border-radius: 100%;
+    position: absolute;
+  }
+  .inner-inner-circle {
+    width: 50px;
+    height: 50px;
+    background: #84271C;
+  }
+  .inner-circle {
+    width: 100px;
+    height: 100px;
+    background: #191210;
+  }
+    .outer-circle {
+    width: 140px;
+    height: 140px;
+    background: #ECA03D;
+  }
+  .left-circle,
+  .right-circle  {
+    position: absolute;
+    background: #191210;
+    border: 20px solid #ECA03D;
+    width: 60px;
+    height: 30px; 
+  }
+  .left-circle{
+    bottom: 32.5%;
+    right: 63%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-radius: 100%;
+    border-top: 0;
+  }
+  .right-circle{
+    top: 32.5%;
+    left: 63%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-radius: 100%;
+    border-bottom: 0;
+  }
+</style>
+<div class="outer-circle"></div>
+<div class="inner-circle"></div>
+<div class="inner-inner-circle"></div>
+<div class="right-circle"></div>

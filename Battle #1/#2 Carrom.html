@@ -1,0 +1,39 @@
+<style>
+  body {
+    background: #62374e;
+    box-sizing: border-box;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .col {
+    width: 150px;
+    height: 50px;
+    background: #fdc57b;
+  }
+  .col.top {
+    margin-top: 42px;
+    margin-bottom: 50px;
+  }
+  .col.bottom {
+    margin-bottom: 42px;
+    margin-top: 50px;
+  }
+  .col.left {
+    margin-left: 42px;
+    margin-right: 100px;
+  }
+  .col.right {
+    margin-right: 42px;
+    margin-left: 100px;
+  }
+</style>
+<div class="row">
+  <div class="col left top"></div>
+  <div class="col right top"></div>
+</div>
+<div class="row">
+  <div class="col left bottom"></div>
+  <div class="col right bottom"></div>
+</div>

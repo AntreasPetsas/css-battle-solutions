@@ -1,0 +1,55 @@
+<style>
+  body {
+    background: #f5d6b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-circle-left,
+  .small-circle-right {
+    width: 20px;
+    height: 20px;
+    background: #d86f45;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .small-circle-left {
+    margin-left: -60%;
+  }
+  .small-circle-right {
+    margin-left: 60%;
+  }
+  .left,
+  .right,
+  .center {
+    width: 60px;
+    height: 30px;
+    background-color: #f5d6b4;
+    border: 20px solid #d86f45;
+    position: absolute;
+  }
+  .center {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+    margin-top: -50px;
+  }
+  .left,
+  .right {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 0;
+    margin-top: 50px;
+  }
+  .left {
+    margin-left: -160px;
+  }
+  .right {
+    margin-left: 160px;
+  }
+</style>
+<div class="left"></div>
+<div class="center"></div>
+<div class="right"></div>
+<div class="small-circle-left"></div>
+<div class="small-circle-right"></div>
