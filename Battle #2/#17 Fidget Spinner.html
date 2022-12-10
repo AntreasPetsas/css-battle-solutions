@@ -1,0 +1,49 @@
+<style>
+  body {
+    background: #09042a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle {
+    background: #f5bb9c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 10px solid #09042a;
+    position: absolute;
+    z-index: 1;
+  }
+  .c-1 {
+    top: 57px;
+  }
+  .c-2 {
+    bottom: 57px;
+  }
+  .centered-circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #09042a;
+    border: 10px solid #e78481;
+    border-radius: 50%;
+  }
+  .centered-square {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    background: #e78481;
+  }
+  .cc-1 {
+    left: 100px;
+  }
+  .cc-2 {
+    right: 100px;
+  }
+</style>
+<div class="circle c-1"></div>
+<div class="centered-circle cc-1"></div>
+<div class="centered-square"></div>
+<div class="centered-circle cc-2"></div>
+<div class="circle c-2"></div>

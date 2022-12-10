@@ -1,0 +1,35 @@
+<div class="arrow-down dark"></div>
+<div class="arrow-down light"></div>
+<div class="arrow-up light"></div>
+<div class="arrow-up dark"></div>
+<style>
+  body {
+    background: #f2f2b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+  }
+  .dark.arrow-up {
+    border-bottom: 130px solid #fd4602;
+    margin-left: 90px;
+  }
+  .light.arrow-up {
+    border-bottom: 130px solid #ff6d00;
+    margin-left: 130px;
+  }
+  .dark.arrow-down {
+    border-top: 130px solid #fd4602;
+    margin-left: -90px;
+  }
+  .light.arrow-down {
+    border-top: 130px solid #ff6d00;
+    margin-left: -130px;
+  }
+</style>
